@@ -1,0 +1,39 @@
+.skill{
+    padding: 3rem;
+}
+.skill h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: orange;
+    font-weight: 900;
+}
+.skill p{
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+
+.skill1{
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+/* .skill1 .skill2{
+    display: flex;
+    flex-direction: column;
+} */
+.skill1 .skill2{
+    text-align: center;
+    margin: 0.5rem 1rem;
+}
+.skill1 .skill2 img{
+    width: 10vw;
+    height: 20vh;
+  
+}
+.skill1 .skill2 p{
+    font-weight: 900;
+}
