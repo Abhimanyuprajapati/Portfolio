@@ -154,17 +154,17 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project1/img18.jpg" alt="project1" />
-              <img src="./src/assets/project/project1/img19.jpg" alt="project1" />
-              <img src="./src/assets/project/project1/img20.jpg" alt="project1" />
-              <img src="./src/assets/project/project1/img21.jpg" alt="project1" />
-              <img src="./src/assets/project/project1/img22.jpg" alt="project1" />
+              <img src="./src/assets/project/project6/img18.jpg" alt="project1" />
+              <img src="./src/assets/project/project6/img19.jpg" alt="project1" />
+              <img src="./src/assets/project/project6/img20.jpg" alt="project1" />
+              <img src="./src/assets/project/project6/img21.jpg" alt="project1" />
+              <img src="./src/assets/project/project6/img22.jpg" alt="project1" />
             </Carousel>
             <div className="project5">
-               <h3>Clone Of Microsoft Digital Note Website</h3>
-               <p>This is the simple clone of the website</p>
+               <h3>PORTFOLIO WEBSITE</h3>
+               <p>This is the simple portfolio of the website</p>
                <p>
-                <b>Tech Stack : </b>HTML,CSS
+                <b>Tech Stack : </b>HTML,CSS,REACT JS
                </p>
             </div>
           </div>
