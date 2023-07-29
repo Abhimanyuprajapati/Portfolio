@@ -36,11 +36,11 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-                <img src="./src/assets/img1.png" alt="project1" />
-                <img src="./src/assets/img2.png" alt="project1" />
-                <img src="./src/assets/img3.png" alt="project1" />
-                <img src="./src/assets/img4.png" alt="project1" />
-                <img src="./src/assets/img5.png" alt="project1" />
+                <img src="../assets/img1.png" alt="project1" />
+                <img src="../assets/img2.png" alt="project1" />
+                <img src="../assets/img3.png" alt="project1" />
+                <img src="../assets/img4.png" alt="project1" />
+                <img src="../assets/img5.png" alt="project1" />
               </Carousel>
               
               <div className="project5">
