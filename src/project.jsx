@@ -36,11 +36,11 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-                <img src="./src/assets/project/project1/img1.png" alt="project1" />
-                <img src="./src/assets/project/project1/img2.png" alt="project1" />
-                <img src="./src/assets/project/project1/img3.png" alt="project1" />
-                <img src="./src/assets/project/project1/img4.png" alt="project1" />
-                <img src="./src/assets/project/project1/img5.png" alt="project1" />
+                <img src="./src/assets/img1.png" alt="project1" />
+                <img src="./src/assets/img2.png" alt="project1" />
+                <img src="./src/assets/img3.png" alt="project1" />
+                <img src="./src/assets/img4.png" alt="project1" />
+                <img src="./src/assets/img5.png" alt="project1" />
               </Carousel>
               
               <div className="project5">
@@ -62,9 +62,9 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project2/img6.png" alt="project2" />
-              <img src="./src/assets/project/project2/img7.png" alt="project2" />
-              <img src="./src/assets/project/project2/img8.png" alt="project2" />
+              <img src="./src/assets/img6.png" alt="project2" />
+              <img src="./src/assets/img7.png" alt="project2" />
+              <img src="./src/assets/img8.png" alt="project2" />
             </Carousel>
             <div className="project5">
                <h3>Money Making Website</h3>
@@ -85,7 +85,7 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project3/img9.png" alt="project3" />
+              <img src="./src/assets/img9.png" alt="project3" />
             </Carousel>
             <div className="project5">
                <h3>Quotes Generating Website</h3>
@@ -106,8 +106,8 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project4/img10.png" alt="project4" />
-              <img src="./src/assets/project/project4/img11.png" alt="project4" />
+              <img src="./src/assets/img10.png" alt="project4" />
+              <img src="./src/assets/img11.png" alt="project4" />
             </Carousel>
             <div className="project5">
                <h3>INFINITY IMAGE WEBSITE</h3>
@@ -128,12 +128,12 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project5/img12.png" alt="project5" />
-              <img src="./src/assets/project/project5/img13.png" alt="project5" />
-              <img src="./src/assets/project/project5/img14.png" alt="project5" />
-              <img src="./src/assets/project/project5/img15.png" alt="project5" />
-              <img src="./src/assets/project/project5/img16.png" alt="project5" />
-              <img src="./src/assets/project/project5/img17.png" alt="project5" />
+              <img src="./src/assets/img12.png" alt="project5" />
+              <img src="./src/assets/img13.png" alt="project5" />
+              <img src="./src/assets/img14.png" alt="project5" />
+              <img src="./src/assets/img15.png" alt="project5" />
+              <img src="./src/assets/img16.png" alt="project5" />
+              <img src="./src/assets/img17.png" alt="project5" />
             </Carousel>
             <div className="project5">
                <h3>FLIGA INDIA WEBSITE</h3>
@@ -154,11 +154,11 @@ export const Project = () => {
               dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
               >
-              <img src="./src/assets/project/project6/img18.jpg" alt="project1" />
-              <img src="./src/assets/project/project6/img19.jpg" alt="project1" />
-              <img src="./src/assets/project/project6/img20.jpg" alt="project1" />
-              <img src="./src/assets/project/project6/img21.jpg" alt="project1" />
-              <img src="./src/assets/project/project6/img22.jpg" alt="project1" />
+              <img src="./src/assets/img18.jpg" alt="project1" />
+              <img src="./src/assets/img19.jpg" alt="project1" />
+              <img src="./src/assets/img20.jpg" alt="project1" />
+              <img src="./src/assets/img21.jpg" alt="project1" />
+              <img src="./src/assets/img22.jpg" alt="project1" />
             </Carousel>
             <div className="project5">
                <h3>PORTFOLIO WEBSITE</h3>
