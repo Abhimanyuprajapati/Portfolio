@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import './project.css'
 
-
+// this is for responsive banner
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
