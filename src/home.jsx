@@ -26,9 +26,3 @@ export const Home = () => {
     </div>
 );
 }
-
-
-
-/**
- * <div class="pdf-container loaded" data-file="https://raw.githubusercontent.com/Abhimanyuprajapati/Portfolio/844b4e896b7a679f1055dd3ea0e010083a36ace4/src/assets/Abhimanyu_Resume.pdf" data-bcmap-dir="//viewscreen.githubusercontent.com/static/pdf" data-pdf-worker-js-path="/static/assets/pdf.worker-b0807d516e641f5fedeb.js"><canvas class="pdf-page" data-page="0" height="2588" width="2000"></canvas></div>
- */
