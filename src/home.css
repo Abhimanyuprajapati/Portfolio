@@ -12,8 +12,6 @@
     position: absolute;
     top: 5rem;
     right: 2rem;
-   
-
 }
 .main .photo img{
    width: 80vh;
@@ -113,28 +111,32 @@
         width: 100%;
     }
     .main .photo{
-        justify-content: center;
-        position: relative;
-        margin-left: 3rem;
-        align-items: center;
-        /* padding: 1rem;
-        margin-left: 1rem; */
+        position:static;
+        margin-top: 1rem;
     }
     .main .photo img{
         border-radius: 50%;
-        /* background-color: rgb(0, 0, 0); */
         background-image: linear-gradient(45deg, #ff4d00, #FFC300, #f1420c);
         width: 100%;
         height: auto;
     }
     .main .detail{
-        position: absolute;
-       font-size: 0.6rem;
-       top: 30rem;
-       left: 5.1rem;
+        position:static;
+       font-size: 0.7rem;
        line-height: 1.5rem;
+       padding-top: 1rem;
        justify-content: center;
        text-align: center;
     }
-
+    .detail p{
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 0.5rem;
+    }
+    .download {
+        margin-top: 3rem;
+    }
+    .detail .socialmedia{
+        margin-left: 1.3rem;
+    }
 }
