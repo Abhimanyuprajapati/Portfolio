@@ -38,7 +38,7 @@
     font-weight: 900;
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 767px) {
     .skill{
         margin: 0px;
         padding: 1rem;
