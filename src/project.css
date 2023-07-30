@@ -48,7 +48,7 @@
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1000px) {
     .react-multi-carousel-list {
         width: 100% !important; 
         box-shadow: 2px 5px 9px rgb(105, 103, 103); 
@@ -62,7 +62,7 @@
        
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .react-multi-carousel-list {
 
         width: 200vw!important; 
@@ -88,5 +88,53 @@
     .project2 .project5{
         line-height: 2rem;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .project{
+        margin: 0px;
+        padding: 0.5rem;
+    }
+    .project1 h1{
+        margin: 1rem 0rem;
+        font-size: 3rem;
+        color: orange;
+    }
+    .project1 p{
+        margin: 1rem 0rem;
+        font-size: 1.5rem;
+    }
+    .project2{
+        margin: 0px;
+        padding: 0px;
+    }
+    .react-multi-carousel-list {
+        width: auto !important; 
+        max-height: 25vh;
+        overflow: hidden;
+    }
+    .project2 img{
+        display: flex;
+        flex-wrap: wrap;
+        height: 30vh !important;
+    }
+    .project2 .project5{
+        margin: 0px;
+        padding: 0rem;
+        line-height: 1rem;
+    }
+    .project2 .project5 h3{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        padding: 0px;
+        width: auto;
+    
+    }
+    .project2 .project5 p{
+        font-size: 0.8rem;
+        padding: 0.5rem 0rem;
+        margin: 0px;
+        width: auto;
     }
 }

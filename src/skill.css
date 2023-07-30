@@ -37,3 +37,17 @@
 .skill1 .skill2 p{
     font-weight: 900;
 }
+
+@media screen and (max-width: 300px) {
+    .skill{
+        margin: 0px;
+        padding: 1rem;
+    }
+    .skill1{
+        justify-content: center;
+    }
+    .skill1 .skill2 img{
+        width: auto;
+
+    }
+}

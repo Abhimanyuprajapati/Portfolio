@@ -12,7 +12,7 @@ export const About = () => {
         </div>
         <div className='about4'>
           <li>Full Stack Web Development and Problem Solving.</li>
-          <li>Technical Stack Learnt: HTML, CSS, Bootstrap, Javascript,  Java ,Data structure , React js ,Git and Github.</li>
+          <li>Technical Stack Learnt: HTML, CSS, Bootstrap, Javascript, Java ,Data structure, React js ,Git and Github.</li>
           <li>Backend language like Node js, MongoDB and Express js.</li>
           <li>Participated in various coding competitions held by Newton School.</li>
         </div>

@@ -12,8 +12,7 @@
 }
 .about2{
         width: 50vw;
-        margin-bottom: 2rem;       
-        
+        margin-bottom: 2rem;           
 }
 .about3 h3{
     color: orange;
@@ -68,4 +67,68 @@ margin: 0.5rem;
         width: 80vw;
         height: auto;
     }
+}
+
+@media screen and (max-width: 300px) {
+    .about{
+        margin: 0px;
+        padding: 0px;
+    }
+    .about1{
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 2em;
+        font-weight: 200;
+        color: orange;
+        margin-bottom: 1rem;
+    }
+    .about2{
+        width:auto;
+        padding: 0px 10px;
+        font-size: 0.9rem;
+        justify-content: center;
+        margin-bottom: 1rem;        
+    }
+    .about3 h3{
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 2em;
+        font-weight: 200;
+        color: orange;
+        margin-bottom: 1rem;
+    }
+    .about3 h5{
+        font-size: 0.8rem;
+        margin: 0.5rem;
+    }
+    .about4{
+        padding: 0px 10px;
+        line-height: 1rem;
+    }
+    .about4 li{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .about4 li::marker{
+        color: red;
+    }
+    .about5 h3{
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+        font-size: 2em;
+        font-weight: 200;
+        color: orange;
+        margin-bottom: 1rem;
+    }
+    .about5 div{
+       margin: 0.8rem 0.8rem;
+
+        line-height: 1rem;
+        font-size: 12px;
+    }
+    .about6 {
+        position: relative;
+        left: 2rem;
+    }
+   
 }
