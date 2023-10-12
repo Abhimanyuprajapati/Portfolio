@@ -1,42 +1,91 @@
 .navbar{
-    margin: 0px;
-    padding: 0px;
-    /* background-color: #f5b9b9; */
+    display: flex;
+    margin: 0px ;
+    padding: 1rem;
+    position: fixed;
+    background-color: black;
+    z-index: 9999;
+    width: 100%;
 }
 .navbar a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: Arial, sans-serif;
     font-style: italic;
     padding: 0px 1rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     box-shadow: 0 2px 6px rgb(0, 0, 0);
 }
-
-@media (max-width: 468px) {
-    .navbar a{
-    font-size: 0.9rem;
-    padding: 0px 15px;
-    margin: 0px;
-    }
-}
-@media (max-width: 290px) {
-    .navbar a{
-        font-size: 0.5rem;
-        padding: 0px 15px;
-        margin: 0px;
-        box-shadow: 0 2px 6px rgb(0, 0, 0);
-        }
-        
+.active{
+    background-color: #e94b0d;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 a:hover {
-    background-color: #cb710a;
+    background-color: #e9770d;
     color: rgb(255, 255, 255);
-  
-   
-  }
-  
-  .active{
-    background-color: #000000;
-    color: rgb(255, 255, 255) !important;
-  }
+    font-weight: 600;
+}
+@media (max-width: 280px) {
+    .navbar{
+        display: flex;
+        margin: 0px ;
+        padding: 0.5rem 0rem;
+        position: fixed;
+        background-color: rgb(20, 196, 227);
+        z-index: 9999;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar a{
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        padding: 0px 0.5rem;
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    .active{
+        background-color: #4ec5a9;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    a:hover {
+        background-color: #4ec5a9;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+}
+ 
+@media (min-width: 281px) and (max-width: 576px) {
+    .navbar{
+        display: flex;
+        margin: 0px ;
+        padding: 0.5rem 0rem;
+        position: fixed;
+        background-color: rgb(20, 196, 227);
+        z-index: 9999;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar a{
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        padding: 0px 0.5rem;
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    .active{
+        background-color: #4ec5a9;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+    a:hover {
+        background-color: #4ec5a9;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+    }
+  } 
