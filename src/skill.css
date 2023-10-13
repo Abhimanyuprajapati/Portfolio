@@ -1,5 +1,6 @@
 .skill{
-    padding: 3rem;
+    padding: 5rem 3rem;
+    background-color: black;
 }
 .skill h1{
     margin-top: 1rem;
@@ -10,21 +11,16 @@
 .skill p{
     font-size: 1.2rem;
     margin: 30px 0px;
+    color: white;
 }
 
 .skill1{
-    /* display: flex;
-    flex-wrap: wrap; */
     display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-  height: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
 }
-/* .skill1 .skill2{
-    display: flex;
-    flex-direction: column;
-} */
 .skill1 .skill2{
     text-align: center;
     margin: 0.5rem 1rem;
@@ -32,16 +28,15 @@
 .skill1 .skill2 img{
     width: 10vw;
     height: 20vh;
-  
 }
 .skill1 .skill2 p{
     font-weight: 900;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .skill{
         margin: 0px;
-        padding: 1rem;
+        padding: 3rem 0.5rem;
     }
     .skill1{
         justify-content: center;
@@ -49,5 +44,17 @@
     .skill1 .skill2 img{
         width: auto;
 
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .skill{
+        margin: 0px;
+        padding: 4rem 2rem;
+    }
+    .skill1{
+        justify-content: center;
+    }
+    .skill1 .skill2 img{
+        width: auto;
     }
 }

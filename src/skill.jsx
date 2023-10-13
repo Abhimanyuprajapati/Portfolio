@@ -32,7 +32,7 @@ export const Skill = () => {
           <p>NODE JS</p>
           </div>
           <div className='skill2'>
-          <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" alt="express js" />
+          <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" alt="express js" style={{backgroundColor:"white",color:"white"}}/>
           <p>EXPRESS JS</p>
           </div>
           <div className='skill2'>
@@ -48,7 +48,7 @@ export const Skill = () => {
           <p>VISUALSTUDIO</p>
           </div>
           <div className='skill2'>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="github" style={{backgroundColor:"white",color:"white"}}/>
           <p>GITHUB</p>
           </div>
           <div className='skill2'>
