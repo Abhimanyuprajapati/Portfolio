@@ -25,6 +25,35 @@ export const Project = () => {
           <h1>Projects</h1>
           <p>Things I’ve built so far</p>
         </div>
+        {/* this is for flipcart */}
+        <div className="project2">
+          <div className="carousel">
+            <Carousel responsive={responsive}
+              swipeable={false}
+              draggable={false}
+              infinite={true}
+              autoPlay={2000}
+              autoPlaySpeed={2000}
+              containerClass="carousel-container"
+              dotListClass="custom-dot-list-style"
+              itemClass="carousel-item-padding-40-px"
+            >
+              <img src="D:\Abhimanyu\Desktop\Portfolio\src\assets\Screenshot 2023-10-14 201504.png" alt="project1" />
+              <img src="https://raw.githubusercontent.com/Abhimanyuprajapati/Portfolio/main/src/assets/img2.png" alt="project1" />
+              <img src="https://raw.githubusercontent.com/Abhimanyuprajapati/Portfolio/main/src/assets/img3.png" alt="project1" />
+              <img src="https://raw.githubusercontent.com/Abhimanyuprajapati/Portfolio/main/src/assets/img4.png" alt="project1" />
+              <img src="https://raw.githubusercontent.com/Abhimanyuprajapati/Portfolio/main/src/assets/img5.png" alt="project1" />
+            </Carousel>
+          </div>
+          <div className="project5">
+            <h3>Flipkart Clone</h3>
+            <p>This is the simple clone of the Flipkart</p>
+            <p>
+              <b>Tech Stack : </b>HTML,CSS,React js, Firebase , 
+            </p>
+          </div>
+        </div>
+
         <div className="project2">
           <div className="carousel">
             <Carousel responsive={responsive}
@@ -52,7 +81,6 @@ export const Project = () => {
             </p>
           </div>
         </div>
-
         <div className="project2">
           <div className="carousel">
             <Carousel responsive={responsive}
