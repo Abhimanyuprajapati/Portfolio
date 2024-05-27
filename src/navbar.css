@@ -1,91 +1,44 @@
-.navbar{
-    display: flex;
-    margin: 0px ;
-    padding: 1rem;
-    position: fixed;
-    background-color: black;
-    z-index: 9999;
+.navbar {
+    margin: 0;
+    padding: 0.5rem 0.5rem;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: white; */
+    background-color: black;
 }
-.navbar a{
-    text-decoration: none;
+
+.navbar .navsymbol span a {
+    padding: 1rem 2rem;
     font-size: 2rem;
-    font-family: Arial, sans-serif;
-    font-style: italic;
-    padding: 0px 1rem;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 2px 6px rgb(0, 0, 0);
+    color: #ffffff;
+    font-weight: 700;
 }
-.active{
-    background-color: #e94b0d;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+
+.navbar .navhead {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
 }
+
+.navbar .navhead li .active {
+    color: #ffffff;
+}
+
+.navbar .navhead li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(205, 191, 191);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar .navhead li,
 a:hover {
-    background-color: #e9770d;
-    color: rgb(255, 255, 255);
-    font-weight: 600;
+    color: white;
+    font-weight: 500;
 }
-@media (max-width: 280px) {
-    .navbar{
-        display: flex;
-        margin: 0px ;
-        padding: 0.5rem 0rem;
-        position: fixed;
-        background-color: rgb(20, 196, 227);
-        z-index: 9999;
-        width: 100%;
-        justify-content: space-around;
-    }
-    .navbar a{
-        text-decoration: none;
-        font-size: 0.8rem;
-        font-family: Arial, sans-serif;
-        font-style: italic;
-        padding: 0px 0.5rem;
-        color: rgb(255, 255, 255);
-        border: none;
-    }
-    .active{
-        background-color: #4ec5a9;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
-    a:hover {
-        background-color: #4ec5a9;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
-}
- 
-@media (min-width: 281px) and (max-width: 576px) {
-    .navbar{
-        display: flex;
-        margin: 0px ;
-        padding: 0.5rem 0rem;
-        position: fixed;
-        background-color: rgb(20, 196, 227);
-        z-index: 9999;
-        width: 100%;
-        justify-content: space-around;
-    }
-    .navbar a{
-        text-decoration: none;
-        font-size: 1.2rem;
-        font-family: Arial, sans-serif;
-        font-style: italic;
-        padding: 0px 0.5rem;
-        color: rgb(255, 255, 255);
-        border: none;
-    }
-    .active{
-        background-color: #4ec5a9;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
-    a:hover {
-        background-color: #4ec5a9;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
-  } 
