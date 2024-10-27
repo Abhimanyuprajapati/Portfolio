@@ -201,5 +201,39 @@ import {
       source_code_link: "https://github.com/Abhimanyuprajapati",
     },
   ];
+
+  const testimonials = [
+    {
+      college: "Ramanand Arya D.A.V. College",
+      degree: "Bachelor of Science in Information Technology",
+      year: "June 2019 - April 2022"
+    },    
+    {
+      college: "Sandesh College of Arts, Commerce & Science",
+      degree: "Intermediate (Class XII) in Science",
+      year: "June 2017 - April 2019"
+    },
+    {
+      college: "Padmavati Venkatesh High School",
+      degree: "Matriculation (Class X)",
+      year: "June 2016 - April 2017"
+    }    
+   
+  ];
+
+  const certification = [
+    {
+      college: "Newton School (Bangalore)",
+      degree: "Full Stack Web Development",
+      year: "October 2022 - June 2023",
+      details: [
+        "Problem Solving (Data Structure and Algorithms)",
+        "Technical Stack Learnt: HTML, CSS, JavaScript, Bootstrap, React.js, Next.js, Java, Git, and GitHub",
+        "Basic working backend knowledge: Node.js, Express.js, MongoDB, Postman, RESTful API",
+        "Basic knowledge of AWS and Docker",
+        "Participated in various coding competitions held by Newton School"
+      ]
+    } 
+  ];
   
-  export { services, technologies, experiences, projects };
+  export { services, technologies, experiences, projects, testimonials, certification };
