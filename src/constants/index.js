@@ -108,29 +108,6 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Software Engineer",
-      company_name: "Tush Entertainments Pvt. Ltd.",
-      icon: tush,
-      iconBg: "#383E56",
-      date: "August 2023 - July 2024",
-      points: [
-          "Developed and deployed 6 React.js Projects",
-          "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
-          "Enhanced UI/UX by implementing responsive designs, optimizing performance, and ensuring cross-browser compatibility.",
-          "Designed and implemented RESTful APIs to enable seamless communication between the frontend and backend.",
-          "Collaborated with a team of developers through code reviews and pair programming.",
-          "Implemented lazy loading, caching, and additional performance optimizations to enhance user experience.",
-          "https://www.moovi.app/   https://www.huntcinema.app/   https://www.jalva.app/ ", 
-      ],
-      projects: [
-          "moovi.app",
-          "jalva.app",
-          "huntcinema.online",
-          "Additional projects as needed",
-      ],
-  },
-
   {
     title: "Frontend Developer - React.js",
     company_name: "Neural IT Pvt. Ltd.",
@@ -143,6 +120,29 @@ import {
         "Integrated WebSocket functionality to enable real-time updates and improve user interaction.",
         "Developing and working on the ongoing launch of Entrust 2.0 from scratch for a US-based project, focusing on improving user-friendliness and adding features tailored to customer needs.",
     ],
+},
+
+{
+  title: "Software Engineer",
+  company_name: "Tush Entertainments Pvt. Ltd.",
+  icon: tush,
+  iconBg: "#383E56",
+  date: "August 2023 - July 2024",
+  points: [
+      "Developed and deployed 6 React.js Projects",
+      "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
+      "Enhanced UI/UX by implementing responsive designs, optimizing performance, and ensuring cross-browser compatibility.",
+      "Designed and implemented RESTful APIs to enable seamless communication between the frontend and backend.",
+      "Collaborated with a team of developers through code reviews and pair programming.",
+      "Implemented lazy loading, caching, and additional performance optimizations to enhance user experience.",
+      "https://www.moovi.app/   https://www.huntcinema.app/   https://www.jalva.app/ ", 
+  ],
+  projects: [
+      "moovi.app",
+      "jalva.app",
+      "huntcinema.online",
+      "Additional projects as needed",
+  ],
 },
 
   
