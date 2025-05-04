@@ -115,10 +115,14 @@ import {
     iconBg: "#383E56",
     date: "July 2024 - Present",
     points: [
-        "Led the modernization of a legacy PHP-based web application by transitioning the front-end to React.js, enhancing user experience and improving maintainability.",
-        "Analyzed and restructured the existing codebase to implement a component-based architecture using React.js, ensuring modular and reusable UI components.",
-        "Integrated WebSocket functionality to enable real-time updates and improve user interaction.",
-        "Developing and working on the ongoing launch of Entrust 2.0 from scratch for a US-based project, focusing on improving user-friendliness and adding features tailored to customer needs.",
+        "Developed the frontend architecture of modern web applications like Entrust 2.0 and NextWave, delivering key features such as:",
+        "🛡️ Role-Based Access Control (RBAC)",
+        "👤 Masquerade Login for Admins",
+        "💳 Auto-Swipe Billing System",
+        "📁 Case Management System",
+        "📦 Prepaid & Postpaid Flow",
+        "📨 Sharebox for Secure File Sharing",
+        "📄 Invoice Generation",
     ],
 },
 

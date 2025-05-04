@@ -18,7 +18,11 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>Abhimanyu&nbsp;<span className='sm:block-hidden'> Prajapati</span></p>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex '
+            onClick={() => {
+              window.open('https://www.linkedin.com/in/abhimanyu-prajapati-84b677215/', '_blank');
+            }}
+        >Abhimanyu&nbsp;<span className='sm:block-hidden'> Prajapati</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
