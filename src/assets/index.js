@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 import flipkart from "../assets/flipkart.png"
 import quotes from "../assets/quotes.png"
 import money from "../assets/money.png"
+import TaskTrackerApplication from "../assets/TaskTrackerApplication.png"
 
 import neuralit from "../assets/company/neuralit.png"
 import tush from "../assets/company/tush.png"
@@ -55,6 +56,7 @@ export {
   flipkart,
   quotes,
   money,
+  TaskTrackerApplication,
   neuralit,
   tush,
 };

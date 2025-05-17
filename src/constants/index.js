@@ -19,7 +19,8 @@ import {
     threejs,
     flipkart,
     quotes,
-    money
+    money,
+    TaskTrackerApplication,
   } from "../assets";
   
   export const navLinks = [
@@ -123,7 +124,12 @@ import {
         "📦 Prepaid & Postpaid Flow",
         "📨 Sharebox for Secure File Sharing",
         "📄 Invoice Generation",
+        "https://entrustv2.neuralit.com/  https://v2.nextwave.world/", 
     ],
+     projects: [
+      "entrustv2.neuralit.com",
+      "v2.nextwave.world",
+  ],
 },
 
 {
@@ -153,6 +159,28 @@ import {
   ];
   
   const projects = [
+     {
+      name: "TaskTrackerApplication",
+      description:
+       "TaskTrackerApplication is a full-stack task management app built with React.js, Tailwind CSS, Node.js, and MongoDB. It supports OTP email verification, project CRUD, profile image upload, recent activity tracking, and a feedback form, with email notifications via Nodemailer.",
+      tags: [
+        {
+          name: "React js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "React Query",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: TaskTrackerApplication,
+      source_code_link: "https://github.com/Abhimanyuprajapati/TaskTrackerApplication",
+      link: "https://task-tracker-application-two.vercel.app"
+    },
     {
       name: "Flipkart Clone",
       description:
@@ -173,6 +201,7 @@ import {
       ],
       image: flipkart,
       source_code_link: "https://github.com/Abhimanyuprajapati/Flipkart-clone",
+       link: "#"
     },
     {
       name: "Quotes Generating",
@@ -186,6 +215,7 @@ import {
       ],
       image: quotes,
       source_code_link: "https://github.com/Abhimanyuprajapati",
+      link: "#"
     },
     {
       name: "Money",
@@ -203,6 +233,7 @@ import {
       ],
       image: money,
       source_code_link: "https://github.com/Abhimanyuprajapati",
+      link: "#"
     },
   ];
 
