@@ -20,7 +20,7 @@ const Hero = () => {
           </h2>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Just another web developer,
+            Just another full stack developer,
           </p>
         </div>
       </div>
